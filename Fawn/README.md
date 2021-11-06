@@ -31,7 +31,7 @@ Lets try login using the command `ftp <ip address>`
 ![login-attempt](login-attempt.png)
 when we look we see that we require a username and a password but we tried login in and we get login incorrect.<br>
 so here is how we need to login if we check our nmap scan we see anonymous login is enabled on the ftp server so lets try login with the username anonymous and password to be anything we want
-![gotflag](gotflag.png)
+![gotflag](gotflag.png)<br>
 There we can see we logged in successfully we listed the files within the current working directory we see a file called `flag.txt` we then download the file to our machine and read it using the command `cat flag.txt` and we get the flag `035db21c881520061c53e0536e44f815` <br>
 Lets wrap it around with `HTB{flag}`<br>
 Here is our final flag to submit `HTB{035db21c881520061c53e0536e44f815}` then we submit that then congratulations we have pwned Fawn!

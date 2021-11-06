@@ -1,4 +1,4 @@
-#  Task 1
+# Task 1
 What does the acronym VM stand for?
 `Virtual Machine`
 
@@ -10,7 +10,7 @@ What tool do we use to interact with the operating system inorder to start out V
 What service do we use to form out VPN Connection?
 `openvpn`
 
-# Taks 4
+# Task 4
 What is the abbreviated name for a tunnel interface in the output of your VPN boot-up sequence output?
 `tun`
 

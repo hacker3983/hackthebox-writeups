@@ -43,7 +43,7 @@ Lets try connecting to telnet service with the command `telnet <ip address>`
 we get a output looking like this
 ![telnet-connection](telnet-connection.png)
 
-* Lets username and password enumeration
+* Lets do some username and password enumeration
 Before we can brutefoce we need a wordlist here is a wordlist we can use which contains telnet default credentials: https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Default-Credentials/telnet-betterdefaultpasslist.txt we can use wget or curl or anything else to download the wordlist but i decided to use wget here is the command to download the wordlist with wget: `wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Default-Credentials/telnet-betterdefaultpasslist.txt`.
 
 Now let the bruteforce begin!

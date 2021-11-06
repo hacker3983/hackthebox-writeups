@@ -28,7 +28,7 @@ again if we look on our nmap scan we see that the operating system (os) the targ
 
 # Lets get the flag
 Lets try login using the command `ftp <ip address>`
-![login-attempt](login-attempt.png)
+![login-attempt](login-attempt.png)<br>
 when we look we see that we require a username and a password but we tried login in and we get login incorrect.<br>
 so here is how we need to login if we check our nmap scan we see anonymous login is enabled on the ftp server so lets try login with the username anonymous and password to be anything we want
 ![gotflag](gotflag.png)<br>

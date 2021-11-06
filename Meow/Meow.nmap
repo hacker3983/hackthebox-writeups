@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Fri Nov  5 23:00:35 2021 as: nmap -A -sV -oN Meow.nmap 10.129.208.41
+Nmap scan report for 10.129.208.41
+Host is up (0.41s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Nov  5 23:01:36 2021 -- 1 IP address (1 host up) scanned in 61.62 seconds

@@ -63,4 +63,4 @@ After we have logged into the telnet server successfully we can then list the fi
 we will see a file called flag.txt we will then read from the file using the command `cat flag.txt` then we will get the flag
 ![telnet](flag.png)
 
-Here is our flag `b40abdfe23665f766f9c61ecba8a4c19` now the only thing we need to do is wrap or surround the flag with `HTB{flag}` voila!
+Here is our flag `b40abdfe23665f766f9c61ecba8a4c19` now the only thing we need to do is wrap or surround the flag with `HTB{flag here}` voila!

@@ -39,14 +39,14 @@ we can see that port 23 is running the telnet service
 # Task 8
 What username ultimately works with the remote management login prompt for the target? `root`
 
-Lets try connecting to telnet service with the command `telnet <ip address>`
+Lets try connecting to telnet service with the command `telnet <ip address>`<br>
 we get a output looking like this
 ![telnet-connection](telnet-connection.png)
 
-* Lets do some username and password enumeration
+* Lets do some username and password enumeration<br>
 Before we can brutefoce we need a wordlist here is a wordlist we can use which contains telnet default credentials: https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Default-Credentials/telnet-betterdefaultpasslist.txt we can use wget or curl or anything else to download the wordlist but i decided to use wget here is the command to download the wordlist with wget: `wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Default-Credentials/telnet-betterdefaultpasslist.txt`.
 
-Now let the bruteforce begin!
+Now let the bruteforce begin!<br>
 we can use this command to bruteforce with hydra after downloading the wordlist
 `hydra <ip address> telnet -C telnet-betterdefaultpasslist.txt`.
 ![cracked](cracked.png)
